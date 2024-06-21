@@ -1,0 +1,53 @@
+
+
+你也可以先执行一遍，估计有的是会报错的，然后再回来看这个也行。
+
+* 目前有些变量(域名、模板、时间等等)是写死的，所以可能执行一遍后，再次执行此Case，导致报错；故需要更换域名or时间，或者其他之类的。
+
+* 需要更改的部分我先记录这里，后续再以可变变量的形式传入，如：从数据库获取数据or从上个接口获取返回，放到需要的接口参数变量中。
+
+* 别问，问就是还不太会从数据库中查找并传入。不然我也不会记这个文档用于警示了。。。。
+    若是你已经更改成了参数化的形式传入，我觉得可以更改一下注释或是给删除了，不然下一个同学看到的话，会是个很糟糕的问题。
+
+需要修改的Case数据：
+    快捷搜索：command+f   搜索："# PS："  可以看到需要修改变量的注释，我想我已经写的很清楚了。
+1、domain_openApi：
+    data_get_GetDomain_success                      data_get_ListDomains                            data_get_GetDomainCertificateUrl_success
+    data_post_ModifyDomainNS_success                data_post_ModifyDomainNS_error                  data_post_SetDomainAutoRenew_error
+    data_get_ListTemplates                          data_get_GetTemplate                            data_post_CreateTemplate_success
+    data_post_CreateTemplate_error                  data_post_UpdateTemplate                        data_post_RegisterDomain_success
+    data_post_RegisterDomain_error                  data_post_Domain_RegistrantChange_success       data_post_Domain_RegistrantChange_error
+    data_get_GetAsyncTask                           data_post_RenewDomain_success                   data_post_RenewDomain_error
+    def test_DomainRegistrantChange_error
+2、domain_manager：
+    data_post_SetDomainAutoRenew_success            data_post_SetDomainAutoRenew_error              data_get_QuerySingle_DomainPrice_success
+
+
+
+######  需将账号更改成专用的测试账号，
+        开启/关闭续费锁，从数据库获取
+
+
+
+-Xms128m
+-Xmx1024m
+-XX:ReservedCodeCacheSize=512m
+-XX:+IgnoreUnrecognizedVMOptions
+-XX:+UseG1GC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-XX:CICompilerCount=2
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:-OmitStackTraceInFastThrow
+-ea
+-Dsun.io.useCanonCaches=false
+-Djdk.http.auth.tunneling.disabledSchemes=""
+-Djdk.attach.allowAttachSelf=true
+-Djdk.module.illegalAccess.silent=true
+-Dkotlinx.coroutines.debug=off
+-XX:ErrorFile=$USER_HOME/java_error_in_idea_%p.log
+-XX:HeapDumpPath=$USER_HOME/java_error_in_idea.hprof
+
+--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED
+--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED
+
+-javaagent:/Users/bytedance/Downloads/jetbra/ja-netfilter.jar=jetbrains
