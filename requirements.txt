@@ -1,0 +1,16 @@
+allure-python-commons==2.8.6
+assertpy==1.1
+attrs==23.1.0
+packaging==23.2
+pluggy==0.13.1
+toml==0.10.2
+iniconfig==2.0.0
+py==1.11.0
+pytest==6.2.3
+pytest-rerunfailures
+pytest-assume
+
+
+
+
+

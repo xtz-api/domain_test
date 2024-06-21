@@ -1,0 +1,902 @@
+[2024-05-14 19:47:10,085][INFO][140704344288896][conftest:idc:320]>>>被测idc为：boe
+[2024-05-14 19:47:10,086][INFO][140704344288896][conftest:env:331]>>>被测env为:autotest
+[2024-05-14 19:47:10,091][INFO][140704344288896][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建工商订单
+[2024-05-14 19:47:10,091][INFO][140704344288896][api_info:post_CreatePreOrder:12]>>>{}
+[2024-05-14 19:47:10,091][INFO][140704344288896][volc_ic_api:CreatePreOrder:88]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-05-14 19:47:10,091][INFO][140704344288896][volc_ic_api:CreatePreOrder:89]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fe88038d7c0>
+[2024-05-14 19:47:10,092][INFO][140704344288896][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-05-14 19:47:10,092][INFO][140704344288896][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-05-14 19:47:12,679][INFO][140704344288896][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-05-14 19:47:12,689][INFO][140704344288896][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202405141947106508C2CCDED78C03CDCA', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7368819908162502700'}}
+[2024-05-14 19:51:43,602][INFO][140704344288896][conftest:idc:320]>>>被测idc为：boe
+[2024-05-14 19:51:43,602][INFO][140704344288896][conftest:env:331]>>>被测env为:autotest
+[2024-05-14 19:51:43,604][INFO][140704344288896][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建工商订单
+[2024-05-14 19:51:43,605][INFO][140704344288896][api_info:post_CreatePreOrder:12]>>>{}
+[2024-05-14 19:51:43,605][INFO][140704344288896][volc_ic_api:CreatePreOrder:88]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-05-14 19:51:43,605][INFO][140704344288896][volc_ic_api:CreatePreOrder:89]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fc36899f7c0>
+[2024-05-14 19:51:43,605][INFO][140704344288896][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-05-14 19:51:43,605][INFO][140704344288896][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-05-14 19:51:45,412][INFO][140704344288896][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-05-14 19:51:45,412][INFO][140704344288896][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024051419514395D9307EA1AA3C038B54', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7368821186625585196'}}
+[2024-05-14 19:52:33,123][INFO][140704344288896][conftest:idc:320]>>>被测idc为：boe
+[2024-05-14 19:52:33,124][INFO][140704344288896][conftest:env:331]>>>被测env为:autotest
+[2024-05-14 19:52:33,125][INFO][140704344288896][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建工商订单
+[2024-05-14 19:52:33,126][INFO][140704344288896][api_info:post_CreatePreOrder:12]>>>{}
+[2024-05-14 19:52:33,126][INFO][140704344288896][volc_ic_api:CreatePreOrder:88]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-05-14 19:52:33,126][INFO][140704344288896][volc_ic_api:CreatePreOrder:89]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f99105867c0>
+[2024-05-14 19:52:33,126][INFO][140704344288896][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-05-14 19:52:33,126][INFO][140704344288896][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-05-14 19:52:34,622][INFO][140704344288896][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-05-14 19:52:34,623][INFO][140704344288896][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240514195233EF10B8A725E3D40397FB', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7368821559833346092'}}
+[2024-05-14 19:53:37,205][INFO][140704344288896][conftest:idc:320]>>>被测idc为：boe
+[2024-05-14 19:53:37,205][INFO][140704344288896][conftest:env:331]>>>被测env为:autotest
+[2024-05-14 19:53:37,207][INFO][140704344288896][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建工商订单
+[2024-05-14 19:53:37,207][INFO][140704344288896][api_info:post_CreatePreOrder:12]>>>{}
+[2024-05-14 19:53:37,207][INFO][140704344288896][volc_ic_api:CreatePreOrder:88]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-05-14 19:53:37,207][INFO][140704344288896][volc_ic_api:CreatePreOrder:89]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fdfa82477c0>
+[2024-05-14 19:53:37,207][INFO][140704344288896][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-05-14 19:53:37,207][INFO][140704344288896][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-05-14 19:53:38,721][INFO][140704344288896][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-05-14 19:53:38,721][INFO][140704344288896][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240514195337EF10B8A725E3D4039C18', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7368821732919689260'}}
+[2024-05-14 19:53:47,788][INFO][140704344288896][conftest:idc:320]>>>被测idc为：boe
+[2024-05-14 19:53:47,789][INFO][140704344288896][conftest:env:331]>>>被测env为:autotest
+[2024-05-14 19:53:47,790][INFO][140704344288896][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建工商订单
+[2024-05-14 19:53:47,790][INFO][140704344288896][api_info:post_CreatePreOrder:12]>>>{}
+[2024-05-14 19:53:47,790][INFO][140704344288896][volc_ic_api:CreatePreOrder:88]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-05-14 19:53:47,791][INFO][140704344288896][volc_ic_api:CreatePreOrder:89]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2384bf7c0>
+[2024-05-14 19:53:47,791][INFO][140704344288896][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-05-14 19:53:47,791][INFO][140704344288896][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-05-14 19:53:49,275][INFO][140704344288896][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-05-14 19:53:49,275][INFO][140704344288896][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240514195347518C495EB7ECF003A085', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7368821857074806828'}}
+[2024-06-13 16:06:09,080][INFO][140704533081728][conftest:idc:320]>>>被测idc为：boe
+[2024-06-13 16:06:09,081][INFO][140704533081728][conftest:env:331]>>>被测env为:autotest
+[2024-06-13 16:06:09,085][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段
+[2024-06-13 16:06:09,085][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:09,085][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:09,085][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:09,085][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:09,086][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:09,496][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:09,496][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406131606092CA4D95DCC9319019048', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:09,504][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段+非必填字段
+[2024-06-13 16:06:09,504][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:09,505][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:09,505][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:09,505][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:09,505][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:09,618][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:09,619][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160609F349BC60C696F101636F', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:09,626][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-13 16:06:09,626][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:09,626][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:09,626][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:09,626][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:09,626][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:09,706][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:09,707][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406131606093969FD05080A2901A1EC', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:09,714][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-13 16:06:09,714][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:09,714][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:09,714][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:09,714][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:09,715][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:09,838][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:09,839][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160610F73E2D21BF827401879C', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:09,844][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择法人（上面的已经选择了自然人了）
+[2024-06-13 16:06:09,844][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:09,844][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:09,844][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:09,844][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:09,845][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:09,955][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:09,956][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406131606107A053FEF679462019714', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:09,963][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择-自然人+法人
+[2024-06-13 16:06:09,963][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:09,963][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:09,963][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:09,964][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:09,964][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:10,054][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:10,054][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160610A701E6B4D466BE01AE15', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:10,061][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段
+[2024-06-13 16:06:10,061][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:10,061][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:10,061][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:10,061][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:10,062][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:10,372][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:10,372][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160610215F693CE9699901B4ED', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:10,378][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段+非必填字段
+[2024-06-13 16:06:10,379][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:10,379][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:10,379][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:10,379][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:10,379][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:10,468][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:10,469][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160610F07B0CB37F1A0401AC25', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:10,475][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-13 16:06:10,476][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:10,476][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:10,476][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:10,476][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:10,476][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:10,545][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:10,545][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160610CC1B621C0A9358018081', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:06:10,552][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-13 16:06:10,553][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:06:10,553][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-13 16:06:10,553][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fb4d832c730>
+[2024-06-13 16:06:10,553][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:06:10,553][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-13 16:06:10,656][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-13 16:06:10,657][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160610E7AB697938D0B20179DE', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'Service值不合法'}}}
+[2024-06-13 16:07:40,204][INFO][140704533081728][conftest:idc:320]>>>被测idc为：boe
+[2024-06-13 16:07:40,205][INFO][140704533081728][conftest:env:331]>>>被测env为:autotest
+[2024-06-13 16:07:40,209][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段
+[2024-06-13 16:07:40,209][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:40,209][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:40,209][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:40,209][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:40,209][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:40,669][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:40,670][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406131607401019FDB634EEB1019095', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:40,677][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段+非必填字段
+[2024-06-13 16:07:40,677][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:40,677][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:40,677][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:40,678][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:40,678][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:40,881][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:40,882][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160740AE09F6F1DEBE6B01B71F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:40,889][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-13 16:07:40,889][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:40,889][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:40,890][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:40,890][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:40,890][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:41,093][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:41,093][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406131607413C27CEB3EF3BD1019CD0', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:41,101][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-13 16:07:41,101][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:41,101][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:41,101][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:41,101][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:41,101][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:41,320][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:41,320][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160741D5537FFA574DE5019E1B', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:41,327][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择法人（上面的已经选择了自然人了）
+[2024-06-13 16:07:41,327][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:41,327][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:41,327][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:41,328][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:41,328][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:41,503][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:41,504][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160741A19B22DF398BBD019059', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:41,511][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择-自然人+法人
+[2024-06-13 16:07:41,511][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:41,511][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:41,511][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:41,512][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:41,512][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:41,692][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:41,692][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061316074101915CF3B3D839019995', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:41,700][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段
+[2024-06-13 16:07:41,700][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:41,700][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:41,700][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:41,700][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:41,700][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:42,002][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:42,003][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160741C8E30F15B787B2017C9D', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:42,009][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段+非必填字段
+[2024-06-13 16:07:42,010][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:42,010][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:42,010][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:42,010][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:42,010][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:42,307][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:42,308][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160742D18EBB281206C10173BD', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:42,315][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-13 16:07:42,315][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:42,315][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:42,316][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:42,316][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:42,316][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:42,572][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:42,573][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160742A2F4A317135456018B45', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 16:07:42,580][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-13 16:07:42,580][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 16:07:42,580][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 16:07:42,580][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7ff1a81bc730>
+[2024-06-13 16:07:42,580][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 16:07:42,581][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 16:07:42,817][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 16:07:42,818][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613160742D18EBB281206C10173C5', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:54:48,216][INFO][140704533081728][conftest:idc:320]>>>被测idc为：boe
+[2024-06-13 20:54:48,217][INFO][140704533081728][conftest:env:331]>>>被测env为:autotest
+[2024-06-13 20:54:48,226][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->错误的ICID，
+[2024-06-13 20:54:48,227][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:48,227][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:48,227][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:48,227][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:48,227][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:50,202][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:50,203][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054482E28DD44626D1F05D14F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20631, 'Message': '工商注册信息不存在'}}}
+[2024-06-13 20:54:50,258][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->ICID为空
+[2024-06-13 20:54:50,259][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:50,259][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:50,259][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:50,259][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:50,259][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:50,329][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:50,329][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205450129740F57F27F205AD58', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'ICID不能为空'}}}
+[2024-06-13 20:54:50,343][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->非待补齐资料状态暂存数据
+[2024-06-13 20:54:50,343][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:50,344][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:50,344][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:50,344][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:50,344][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:51,016][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:51,016][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054502E28DD44626D1F05D184', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20600, 'Message': '只能在补齐资料阶段才能保存数据'}}}
+[2024-06-13 20:54:51,031][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称为空
+[2024-06-13 20:54:51,031][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:51,031][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:51,032][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:51,032][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:51,032][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:51,631][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:51,632][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054510D05729BF848B405666B', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:54:51,647][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称1个字符
+[2024-06-13 20:54:51,647][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:51,647][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:51,647][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:51,647][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:51,648][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:52,345][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:52,346][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205451EDA879DA2325A305A0C8', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【深】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:54:52,369][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称51个字符
+[2024-06-13 20:54:52,369][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:52,370][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:52,370][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:52,370][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:52,370][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:53,095][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:53,095][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205452EDA879DA2325A305A0D0', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【深圳不怕影子斜且不能力有限公司深圳不怕影子斜且不能力有限公司深圳不怕影子斜且不能力有限公司深圳不怕影子】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:54:53,111][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称除了中文及中文括号外其他的字符-英文括号
+[2024-06-13 20:54:53,111][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:53,111][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:53,111][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:53,112][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:53,112][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:53,868][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:53,868][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054537BA386C169DC9F058AA4', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【(深圳不怕影子斜且不能力有限公司)】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:54:53,884][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本为空
+[2024-06-13 20:54:53,884][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:53,884][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:53,884][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:53,885][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:53,885][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:53,954][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:53,955][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205454D1F5793EFB98B6061740', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '请检查参数是否准确'}}}
+[2024-06-13 20:54:53,969][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本0元
+[2024-06-13 20:54:53,970][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:53,970][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:53,970][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:53,970][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:53,970][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:54,588][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:54,589][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054548A80E8106DFE8305DC98', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20603, 'Message': '注册资本至少1元最多1亿元'}}}
+[2024-06-13 20:54:54,605][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本1亿零1元
+[2024-06-13 20:54:54,605][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:54,605][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:54,605][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:54,606][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:54,606][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:55,233][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:55,234][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054541DFDCDE992D31B05C2C6', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20603, 'Message': '注册资本至少1元最多1亿元'}}}
+[2024-06-13 20:54:55,249][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->经营年限除5、10、20、30、999外其他的年限
+[2024-06-13 20:54:55,249][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:55,249][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:55,249][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:55,250][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:55,250][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:55,321][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:55,322][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320545587FC58F3C1FB4705E4E4', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-13 20:54:55,336][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->经营年限为空
+[2024-06-13 20:54:55,336][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:55,336][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:55,336][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:55,336][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:55,337][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:55,454][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:55,455][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054551B3F94EE3E7B2B05D606', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-13 20:54:55,470][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->行业为空
+[2024-06-13 20:54:55,471][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:55,471][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:55,471][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:55,471][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:55,471][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:55,546][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:55,546][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054552E28DD44626D1F05D1EB', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-13 20:54:55,570][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->没有股东信息
+[2024-06-13 20:54:55,570][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:55,570][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:55,570][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:55,571][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:55,571][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:56,230][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:56,230][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054552D47A03394333205FC92', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20606, 'Message': '股东个数必须在1-50个之间'}}}
+[2024-06-13 20:54:56,245][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东模板与模板类型不符（法人类型传入自然人模板）
+[2024-06-13 20:54:56,246][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:56,246][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:56,246][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:56,246][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:56,246][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:56,974][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:56,974][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205456F73E2D21BF827405A1FD', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20609, 'Message': '股东只能使用法人模板【故里】'}}}
+[2024-06-13 20:54:56,988][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东出资金额不正确
+[2024-06-13 20:54:56,988][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:56,988][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:56,988][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:56,988][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:56,989][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:57,658][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:57,658][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205457DD40F3FC3DEC1806314A', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20607, 'Message': '股东出资总金额不等于注册资本'}}}
+[2024-06-13 20:54:57,674][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东重复
+[2024-06-13 20:54:57,675][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:57,675][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:57,675][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:57,675][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:57,675][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:58,383][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:58,383][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132054572AB6ADAABCBB0505CFD4', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20607, 'Message': '股东人员不能重复【故里】'}}}
+[2024-06-13 20:54:58,400][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->主要人员信息缺少-法定代表人
+[2024-06-13 20:54:58,400][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:58,400][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:58,400][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:58,401][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:58,401][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:59,086][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:59,086][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205458A9829D657DC7AE059A85', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20617, 'Message': '必须选择一位法人'}}}
+[2024-06-13 20:54:59,102][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->主要人员信息缺少-监事
+[2024-06-13 20:54:59,102][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:59,102][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:59,102][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:59,102][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:59,102][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:54:59,858][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:54:59,858][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205459518E9E64CCDB4305D8A1', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20618, 'Message': '必须选择一位监事'}}}
+[2024-06-13 20:54:59,873][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司主要人员重复
+[2024-06-13 20:54:59,873][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:54:59,873][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:54:59,873][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:54:59,873][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:54:59,873][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:55:00,532][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:55:00,533][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320550072A047A2DED5B30609F7', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20613, 'Message': '公司主要人员选择模板不能重复【故里】'}}}
+[2024-06-13 20:55:00,548][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司主要人员主要（法定代表人、监事）职位重复
+[2024-06-13 20:55:00,548][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:55:00,548][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:55:00,548][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7db0520820>
+[2024-06-13 20:55:00,548][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:55:00,549][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:55:02,322][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:55:02,323][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205500AE09F6F1DEBE6B05FA67', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20617, 'Message': '法定代表人必须只有一位【故里,长安】'}}}
+[2024-06-13 20:56:10,719][INFO][140704533081728][conftest:idc:320]>>>被测idc为：boe
+[2024-06-13 20:56:10,719][INFO][140704533081728][conftest:env:331]>>>被测env为:autotest
+[2024-06-13 20:56:10,727][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->错误的ICID，
+[2024-06-13 20:56:10,727][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:10,728][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:10,728][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:10,728][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:10,728][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:11,596][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:11,596][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320561020CF48F805700105EF84', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20631, 'Message': '工商注册信息不存在'}}}
+[2024-06-13 20:56:11,608][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->ICID为空
+[2024-06-13 20:56:11,608][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:11,608][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:11,608][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:11,608][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:11,609][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:11,690][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:11,690][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205611435E9C4BE30E9805E178', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'ICID不能为空'}}}
+[2024-06-13 20:56:11,705][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->非待补齐资料状态暂存数据
+[2024-06-13 20:56:11,705][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:11,705][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:11,705][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:11,706][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:11,706][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:12,473][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:12,474][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320561120CF48F805700105EF91', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20600, 'Message': '只能在补齐资料阶段才能保存数据'}}}
+[2024-06-13 20:56:12,486][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称为空
+[2024-06-13 20:56:12,486][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:12,486][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:12,486][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:12,486][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:12,487][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:13,128][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:13,129][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056122CD0A288548C8D05A809', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:56:13,140][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称1个字符
+[2024-06-13 20:56:13,141][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:13,141][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:13,141][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:13,141][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:13,141][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:13,818][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:13,819][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205613B8F2FB1B74CD77061B31', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【深】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:56:13,831][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称51个字符
+[2024-06-13 20:56:13,831][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:13,831][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:13,831][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:13,831][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:13,831][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:14,585][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:14,586][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205614518E9E64CCDB4305DC51', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【深圳不怕影子斜且不能力有限公司深圳不怕影子斜且不能力有限公司深圳不怕影子斜且不能力有限公司深圳不怕影子】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:56:14,597][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称除了中文及中文括号外其他的字符-英文括号
+[2024-06-13 20:56:14,598][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:14,598][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:14,598][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:14,598][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:14,598][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:15,323][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:15,323][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205614DE734C9E63EDFF05D330', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【(深圳不怕影子斜且不能力有限公司)】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-13 20:56:15,336][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本为空
+[2024-06-13 20:56:15,336][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:15,336][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:15,336][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:15,337][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:15,337][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:15,414][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:15,421][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056156A447AE86AC98005FF64', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '请检查参数是否准确'}}}
+[2024-06-13 20:56:15,439][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本0元
+[2024-06-13 20:56:15,439][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:15,439][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:15,440][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:15,440][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:15,440][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:16,116][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:16,116][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056150BCE33516EA65B05D61B', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20603, 'Message': '注册资本至少1元最多1亿元'}}}
+[2024-06-13 20:56:16,127][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本1亿零1元
+[2024-06-13 20:56:16,127][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:16,127][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:16,128][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:16,128][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:16,128][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:16,820][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:16,820][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205616ED001612FC285905CCC6', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20603, 'Message': '注册资本至少1元最多1亿元'}}}
+[2024-06-13 20:56:16,833][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->经营年限除5、10、20、30、999外其他的年限
+[2024-06-13 20:56:16,834][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:16,834][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:16,834][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:16,834][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:16,834][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:16,941][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:16,941][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205617110F0583AB485A05BB81', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-13 20:56:16,955][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->经营年限为空
+[2024-06-13 20:56:16,955][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:16,955][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:16,955][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:16,955][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:16,956][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:17,028][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:17,029][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205617DE734C9E63EDFF05D36F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-13 20:56:17,041][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->行业为空
+[2024-06-13 20:56:17,041][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:17,041][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:17,041][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:17,041][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:17,041][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:17,122][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:17,123][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205617D5537FFA574DE505AD34', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-13 20:56:17,179][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->没有股东信息
+[2024-06-13 20:56:17,179][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:17,179][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:17,179][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:17,179][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:17,180][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:17,841][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:17,842][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056171B3F94EE3E7B2B05DA80', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20606, 'Message': '股东个数必须在1-50个之间'}}}
+[2024-06-13 20:56:17,858][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东模板与模板类型不符（法人类型传入自然人模板）
+[2024-06-13 20:56:17,858][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:17,858][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:17,858][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:17,858][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:17,859][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:18,661][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:18,661][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056181DFDCDE992D31B05C765', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20609, 'Message': '股东只能使用法人模板【故里】'}}}
+[2024-06-13 20:56:18,673][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东出资金额不正确
+[2024-06-13 20:56:18,673][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:18,673][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:18,673][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:18,674][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:18,674][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:19,311][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:19,312][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056185C8F9BB1CECF1906179A', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20607, 'Message': '股东出资总金额不等于注册资本'}}}
+[2024-06-13 20:56:19,322][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东重复
+[2024-06-13 20:56:19,323][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:19,323][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:19,323][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:19,323][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:19,323][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:20,095][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:20,095][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205619BAEB3BB9232094062FDC', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20607, 'Message': '股东人员不能重复【故里】'}}}
+[2024-06-13 20:56:20,107][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->主要人员信息缺少-法定代表人
+[2024-06-13 20:56:20,107][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:20,107][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:20,108][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:20,108][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:20,108][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:20,815][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:20,816][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320562020CF48F805700105EFF2', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20617, 'Message': '必须选择一位法人'}}}
+[2024-06-13 20:56:20,826][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->主要人员信息缺少-监事
+[2024-06-13 20:56:20,826][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:20,826][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:20,826][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:20,826][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:20,826][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:21,516][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:21,516][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205621851D37F3F4A4D0058501', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20618, 'Message': '必须选择一位监事'}}}
+[2024-06-13 20:56:21,526][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司主要人员重复
+[2024-06-13 20:56:21,527][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:21,527][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:21,527][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:21,527][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:21,527][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:22,249][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:22,249][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132056211EE0F8A237C6E905F240', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20613, 'Message': '公司主要人员选择模板不能重复【故里】'}}}
+[2024-06-13 20:56:22,263][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司主要人员主要（法定代表人、监事）职位重复
+[2024-06-13 20:56:22,264][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:56:22,264][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:56:22,264][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fd2a84e7820>
+[2024-06-13 20:56:22,264][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:56:22,264][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:56:22,970][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:56:22,971][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205622518E9E64CCDB4305DCDF', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20617, 'Message': '法定代表人必须只有一位【故里,长安】'}}}
+[2024-06-13 20:59:38,337][INFO][140704533081728][conftest:idc:320]>>>被测idc为：boe
+[2024-06-13 20:59:38,337][INFO][140704533081728][conftest:env:331]>>>被测env为:autotest
+[2024-06-13 20:59:38,341][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段
+[2024-06-13 20:59:38,341][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:38,341][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:38,341][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:38,341][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:38,342][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:38,779][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:38,779][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205938F616E4C2AAEA4B063589', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:38,786][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段+非必填字段（备选名称、注册资本实缴日期、经营范围、收件人、收件人手机号、收件地址、股东注册资本实缴日期、公司主要人员财务-总经理-执行董事）
+[2024-06-13 20:59:38,787][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:38,787][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:38,787][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:38,787][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:38,787][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:39,055][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:39,056][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205939E29E2B7E1BE4FB05B76D', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:39,062][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-13 20:59:39,062][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:39,062][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:39,062][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:39,063][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:39,063][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:39,302][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:39,302][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132059399F81D3F7CC56F105D204', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:39,310][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-13 20:59:39,310][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:39,310][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:39,310][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:39,310][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:39,311][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:39,523][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:39,524][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132059394B2F9768E759A50594BB', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:39,530][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择法人（上面的已经选择了自然人了）
+[2024-06-13 20:59:39,531][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:39,531][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:39,531][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:39,531][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:39,531][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:39,768][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:39,769][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205939F34827CA38CDCE061E1C', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:39,776][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择-自然人+法人
+[2024-06-13 20:59:39,776][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:39,776][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:39,776][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:39,776][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:39,776][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:40,080][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:40,081][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320594000812F3ECB462905F5E9', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:40,088][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段
+[2024-06-13 20:59:40,089][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:40,089][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:40,089][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:40,089][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:40,089][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:40,320][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:40,321][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406132059408A5FCD853C709406260C', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:40,329][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段+非必填字段
+[2024-06-13 20:59:40,330][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:40,330][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:40,330][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:40,330][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:40,331][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:40,568][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:40,569][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205940FF2B32261B7911057422', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:40,574][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-13 20:59:40,575][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:40,575][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:40,575][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:40,575][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:40,575][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:40,843][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:40,843][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240613205940D5E5406EA2519205F60F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-13 20:59:40,850][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-13 20:59:40,850][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-13 20:59:40,851][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-13 20:59:40,851][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7fade0448820>
+[2024-06-13 20:59:40,851][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-13 20:59:40,851][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-13 20:59:41,108][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-13 20:59:41,108][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024061320594183F961B21F2C7205F4F5', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:49,555][INFO][140704533081728][conftest:idc:320]>>>被测idc为：boe
+[2024-06-20 16:10:49,556][INFO][140704533081728][conftest:env:331]>>>被测env为:autotest
+[2024-06-20 16:10:49,558][INFO][140704533081728][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建-->工商公司订单（在商机处已经校验过了这里的参数，包括错误的）
+[2024-06-20 16:10:49,558][INFO][140704533081728][api_info:post_CreatePreOrder:12]>>>{}
+[2024-06-20 16:10:49,558][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-20 16:10:49,559][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:49,559][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:49,559][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-20 16:10:52,277][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-20 16:10:52,278][INFO][140704533081728][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201610495D34CA657690451596F9', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7382493919156928556'}}
+[2024-06-20 16:10:52,282][INFO][140704533081728][test_info:test_createProOrder:14]>>>Test Case：--> /data_post_CreatePreOrder，comment：-->创建-->工商个体户订单
+[2024-06-20 16:10:52,283][INFO][140704533081728][api_info:post_CreatePreOrder:12]>>>{}
+[2024-06-20 16:10:52,283][INFO][140704533081728][volc_ic_api:CreatePreOrder:103]>>>http://volcengineapi-boe.byted.org/,CreatePreOrder
+[2024-06-20 16:10:52,283][INFO][140704533081728][volc_ic_api:CreatePreOrder:104]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:52,283][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:52,284][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'CreatePreOrder'}
+[2024-06-20 16:10:53,927][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=CreatePreOrder&Version=2023-11-11
+[2024-06-20 16:10:53,927][INFO][140704533081728][test_info:test_createProOrder:16]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016105238394041AB26D01803E3', 'Action': 'CreatePreOrder', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}, 'Result': {'OrderID': 'BO7382493532299051052'}}
+[2024-06-20 16:10:53,934][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段
+[2024-06-20 16:10:53,934][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:53,934][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:53,934][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:53,934][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:53,935][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:54,286][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:54,287][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201610540DC3E4240F6D3615006D', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:54,293][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，传入必填字段+非必填字段（备选名称、注册资本实缴日期、经营范围、收件人、收件人手机号、收件地址、股东注册资本实缴日期、公司主要人员财务-总经理-执行董事）
+[2024-06-20 16:10:54,293][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:54,293][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:54,293][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:54,293][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:54,294][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:54,571][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:54,571][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161054349CF7A20CF24C17B56F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:54,578][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-20 16:10:54,578][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:54,578][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:54,578][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:54,578][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:54,578][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:54,877][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:54,878][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161054998F36C94A725C1612D0', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:54,886][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-20 16:10:54,886][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:54,886][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:54,886][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:54,887][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:54,887][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:55,073][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:55,074][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161055FC04A8E5D8689216372C', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:55,081][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择法人（上面的已经选择了自然人了）
+[2024-06-20 16:10:55,081][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:55,082][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:55,082][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:55,082][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:55,082][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:55,273][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:55,274][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161055F26790745268F915D551', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:55,280][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->暂存注册资料，股东类型选择-自然人+法人
+[2024-06-20 16:10:55,281][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:55,281][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:55,281][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:55,281][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:55,281][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:55,529][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:55,529][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161055C843B605C987CD1514E7', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:55,536][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段
+[2024-06-20 16:10:55,536][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:55,537][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:55,537][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:55,537][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:55,537][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:55,799][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:55,799][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161055CE8F9717A5582715A5F5', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:55,805][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，传入必填字段+非必填字段
+[2024-06-20 16:10:55,805][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:55,805][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:55,805][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:55,806][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:55,806][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:56,007][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:56,007][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161055B32514AA4AB1D21548E2', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:56,014][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最小传入校验（公司名称2个字、注册资金1元、注册年限5年）
+[2024-06-20 16:10:56,014][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:56,014][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:56,014][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:56,015][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:56,015][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:56,176][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:56,177][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161056099EFC0F72B56F168CFA', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:56,183][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:28]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->个体户-->暂存注册资料，最大传入校验（公司名称50个字、注册资金1亿元、注册年限999年）
+[2024-06-20 16:10:56,183][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:56,183][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:56,183][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:56,183][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:56,184][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:56,346][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:56,346][INFO][140704533081728][test_info:test_saveICRegMaterial_succes:30]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016105690E67C07CA57B9150A03', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce'}}
+[2024-06-20 16:10:56,357][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->错误的ICID，
+[2024-06-20 16:10:56,357][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:56,357][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:56,358][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:56,358][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:56,358][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:58,154][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:58,155][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201610564A6A02C900511915194B', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20631, 'Message': '工商注册信息不存在'}}}
+[2024-06-20 16:10:58,166][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->ICID为空
+[2024-06-20 16:10:58,166][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:58,166][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:58,166][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:58,166][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:58,166][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:58,245][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:58,246][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161058BB0019419CA90A148F76', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': 'ICID不能为空'}}}
+[2024-06-20 16:10:58,257][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->非待补齐资料状态暂存数据
+[2024-06-20 16:10:58,257][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:58,258][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:58,258][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:58,258][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:58,258][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:59,110][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:59,110][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201610582B6E2BD0B70D2614A5AA', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20600, 'Message': '只能在补齐资料阶段才能保存数据'}}}
+[2024-06-20 16:10:59,120][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称为空
+[2024-06-20 16:10:59,120][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:10:59,120][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:10:59,121][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:10:59,121][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:10:59,121][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:10:59,997][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:10:59,998][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161059794F79DEEF29B917D7B0', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-20 16:11:00,011][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称1个字符
+[2024-06-20 16:11:00,011][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:00,011][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:00,011][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:00,011][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:00,012][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:00,839][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:00,840][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161100C5C52B7848B6A7157379', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【深】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-20 16:11:00,851][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称51个字符
+[2024-06-20 16:11:00,852][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:00,852][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:00,852][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:00,852][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:00,852][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:01,635][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:01,636][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161100F3F3D0F7B3B92D16562C', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【深圳不怕影子斜且不能力有限公司深圳不怕影子斜且不能力有限公司深圳不怕影子斜且不能力有限公司深圳不怕影子】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-20 16:11:01,646][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司名称除了中文及中文括号外其他的字符-英文括号
+[2024-06-20 16:11:01,646][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:01,646][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:01,646][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:01,647][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:01,647][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:03,367][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:03,368][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016110126D01545F93E55149DCE', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20601, 'Message': '【(深圳不怕影子斜且不能力有限公司)】公司名称只能包含汉字和中文括号，长度必须2-50个字符之间'}}}
+[2024-06-20 16:11:03,380][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本为空
+[2024-06-20 16:11:03,380][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:03,380][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:03,380][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:03,380][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:03,380][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:03,446][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:03,447][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161103CE8F9717A5582715A65F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '请检查参数是否准确'}}}
+[2024-06-20 16:11:03,460][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本0元
+[2024-06-20 16:11:03,460][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:03,460][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:03,461][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:03,461][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:03,461][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:04,233][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:04,234][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016110328209694B3AD87154DE6', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20603, 'Message': '注册资本至少1元最多1亿元'}}}
+[2024-06-20 16:11:04,245][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->注册资本1亿零1元
+[2024-06-20 16:11:04,246][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:04,246][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:04,246][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:04,246][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:04,246][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:05,118][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:05,119][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201611045D34CA6576904515976F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20603, 'Message': '注册资本至少1元最多1亿元'}}}
+[2024-06-20 16:11:05,132][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->经营年限除5、10、20、30、999外其他的年限
+[2024-06-20 16:11:05,132][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:05,132][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:05,132][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:05,133][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:05,133][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:05,210][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:05,211][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016110526D01545F93E55149E31', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-20 16:11:05,221][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->经营年限为空
+[2024-06-20 16:11:05,222][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:05,222][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:05,222][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:05,222][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:05,222][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:05,318][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:05,318][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016110546C8A60273ECF3154E32', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '经营年限值不合法'}}}
+[2024-06-20 16:11:05,330][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->行业为空
+[2024-06-20 16:11:05,330][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:05,331][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:05,331][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:05,331][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:05,331][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:05,420][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:05,421][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201611059716380A65EC7514BCDF', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20400, 'Message': '行业值不合法'}}}
+[2024-06-20 16:11:05,432][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->没有股东信息
+[2024-06-20 16:11:05,433][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:05,433][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:05,433][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:05,433][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:05,433][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:06,702][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:06,703][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016110528209694B3AD87154DF6', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20606, 'Message': '股东个数必须在1-50个之间'}}}
+[2024-06-20 16:11:06,715][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东模板与模板类型不符（法人类型传入自然人模板）
+[2024-06-20 16:11:06,715][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:06,715][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:06,715][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:06,716][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:06,716][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:07,577][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:07,577][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161106B820A992ECEC7715D343', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20609, 'Message': '股东只能使用法人模板【故里】'}}}
+[2024-06-20 16:11:07,589][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东出资金额不正确
+[2024-06-20 16:11:07,589][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:07,590][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:07,590][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:07,590][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:07,590][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:09,623][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:09,623][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '202406201611075F9AA4B5F1720F14BCBF', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20607, 'Message': '股东出资总金额不等于注册资本'}}}
+[2024-06-20 16:11:09,634][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->股东重复
+[2024-06-20 16:11:09,635][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:09,635][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:09,635][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:09,635][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:09,635][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:11,466][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:11,467][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161109922A49782DAC7D15022A', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20607, 'Message': '股东人员不能重复【故里】'}}}
+[2024-06-20 16:11:11,479][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->主要人员信息缺少-法定代表人
+[2024-06-20 16:11:11,479][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:11,479][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:11,479][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:11,479][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:11,479][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:12,302][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:12,302][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016111113DF122512DB1F144F07', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20617, 'Message': '必须选择一位法人'}}}
+[2024-06-20 16:11:12,314][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->主要人员信息缺少-监事
+[2024-06-20 16:11:12,314][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:12,314][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:12,314][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:12,315][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:12,315][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:13,004][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:13,004][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016111245EDA23FC7F6A914349F', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20618, 'Message': '必须选择一位监事'}}}
+[2024-06-20 16:11:13,016][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司主要人员重复
+[2024-06-20 16:11:13,017][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:13,017][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:13,017][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:13,017][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:13,017][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:14,538][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:14,539][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '20240620161113B0BB5F7DAF0C5214E316', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20613, 'Message': '公司主要人员选择模板不能重复【故里】'}}}
+[2024-06-20 16:11:14,551][INFO][140704533081728][test_info:test_saveICRegMaterial_error:40]>>>Test Case：--> /data_post_SaveICRegMaterial_succes，comment：-->公司-->公司主要人员主要（法定代表人、监事）职位重复
+[2024-06-20 16:11:14,551][INFO][140704533081728][api_info:post_SaveICRegmaterial:22]>>>{}
+[2024-06-20 16:11:14,551][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:113]>>>http://volcengineapi-boe.byted.org/,SaveICRegMaterial
+[2024-06-20 16:11:14,551][INFO][140704533081728][volc_ic_api:SaveICRegMaterial:114]>>><util.requests_volcauth.volcauth.VolcAuth object at 0x7f7fe8622820>
+[2024-06-20 16:11:14,551][INFO][140704533081728][volc_requests:form_params:22]>>>{'ICID': None, 'Version': '2023-11-11'}
+[2024-06-20 16:11:14,552][INFO][140704533081728][volc_requests:form_params:23]>>>{'Action': 'SaveICRegMaterial'}
+[2024-06-20 16:11:16,485][INFO][140704533081728][volc_requests:implement:39]>>>请求Volc GTM OpenApi, URL: http://volcengineapi-boe.byted.org/?Action=SaveICRegMaterial&Version=2023-11-11
+[2024-06-20 16:11:16,485][INFO][140704533081728][test_info:test_saveICRegMaterial_error:42]>>>code is --200 & Result is --> {'ResponseMetadata': {'RequestID': '2024062016111463D7B1120E6E4115331B', 'Action': 'SaveICRegMaterial', 'Version': '2023-11-11', 'Region': 'cn-north-1', 'Service': 'industry_commerce', 'Error': {'Code': '', 'CodeN': 20617, 'Message': '法定代表人必须只有一位【故里,长安】'}}}
